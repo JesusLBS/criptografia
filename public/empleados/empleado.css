@@ -1,0 +1,43 @@
+body{
+	font-family: Arial;
+}
+
+#consulta-usuarios{
+	margin-left:auto; 
+    margin-right:auto;
+	background-color: white;
+	text-align: left;
+	width: 75%;
+	border-collapse: collapse;
+}
+
+th, td{
+	padding: 10px;
+	
+}
+
+thead{
+	background-color: #08088A;
+	border-bottom: solid 5px #58D3F7;
+	color: white;
+	text-align: center;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #2E64FE;
+	color: white;
+}
+
+
+#ingreso{
+	margin-left:auto; 
+    margin-right:auto;
+	background-color: white;
+	text-align: center;	
+	width: 75%;
+	border-collapse: collapse;
+}
